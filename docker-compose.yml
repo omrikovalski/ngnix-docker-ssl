@@ -1,15 +1,4 @@
-## Mark Shust's Docker Configuration for Magento
-## (https://github.com/markshust/docker-magento)
-##
-## Version 42.0.0
-
-## To use SSH, see https://github.com/markshust/docker-magento#ssh
-## Linux users, see https://github.com/markshust/docker-magento#linux
-
-## If you changed the default Docker network, you may need to replace
-## 172.17.0.1 in this file with the result of:
-## docker network inspect bridge --format='{{(index .IPAM.Config 0).Gateway}}'
-
+# Nginx Docker SSL
 version: "3"
 
 services:
