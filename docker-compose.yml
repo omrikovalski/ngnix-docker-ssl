@@ -7,6 +7,7 @@ services:
     ports:
       - "443:8443"
     volumes: &nginx-volumes
+      - ./dist/apps/shell:/var/www/html
       - sockdata:/sock
       - ssldata:/etc/nginx/certs
 
